@@ -1,0 +1,11 @@
+# 可再生的数据产物：由 tools/update_genshin_text.py 从 public-data 构建（约 490 MB）
+databases/*.sqlite
+databases/*.sqlite-*
+
+# 第三方数据源克隆：DimbreathBot/AnimeGameData（约 850 MB，不属于本仓库）
+public-data/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
